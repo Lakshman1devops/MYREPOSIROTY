@@ -8,6 +8,6 @@
       state: latest
   - name: "web Server start"
     service:
-       name: "http"
+       name: "httpd"
        state: started
        enabled: yes     
