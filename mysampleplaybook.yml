@@ -6,7 +6,8 @@
     apt:
       name: apache2
       state: latest
-  - name: i wanna start my webserver
-    service:
-      name: apache2
-      state: started      
+  - name: "web Server start"
+  service:
+       name: "http"
+       state: started
+       enabled: yes     
