@@ -7,7 +7,7 @@
       name: apache2
       state: latest
   - name: "web Server start"
-  service:
+    service:
        name: "http"
        state: started
        enabled: yes     
