@@ -1,14 +1,12 @@
 ---
 - hosts: all
   become: yes
-  user: siva
   tasks:
   - name: i wanna install my apache2
     apt:
       name: apache2
-      state: present
+      state: latest
   - name: i wanna start my webserver
     service:
       name: apache2
-      state: started
-      
+      state: started      
